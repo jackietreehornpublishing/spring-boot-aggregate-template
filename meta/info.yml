@@ -1,8 +1,15 @@
 name: 
-  $name
+  springboot-aggregate-microservice template
+  
 type:
-  $template-type
+  spring-boot
 
 description: 
-  $description
+  Jackies Spring Boot Aggregate Microservice 
   
+parameters:
+  
+  - name: description
+    required: false
+    description: A template for a microservice aggregate
+    valid-input-description: A short description of the service.
