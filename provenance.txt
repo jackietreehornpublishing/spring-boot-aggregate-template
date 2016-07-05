@@ -1,0 +1,30 @@
+Template info:
+
+Group: jackietreehornpublishing
+Name: blank-template-template
+Version 1.0.0-SNAPSHOT
+
+Backing GitHub repo:
+Owner: jackietreehornpublishing
+Repo: blank-template-template
+Branch: master
+Path (within repo): 
+sha: eb269b5c68752e4971efeb111af806cb0dfda54e
+
+
+Parameter values (passed in on template invocation):
+description='My new Spring Boot Aggregate Template'
+team-id='T1KHULA3E'
+name='spring-boot-aggregate-template'
+template='blank-template-template'
+user-id='U1KGQ9YGK'
+template-type='spring-boot'
+group_id='jackietreehornpublishing'
+org='jackietreehornpublishing'
+version='0.0.1'
+artifact_id='spring-boot-aggregate-template'
+visibility='public'
+
+Computed parameter values (computed based on parameter values passed in):
+date_time='05 07 2016 '
+creation_date='Tue Jul 05 2016 09:15:45 GMT+0000 (UTC)'
