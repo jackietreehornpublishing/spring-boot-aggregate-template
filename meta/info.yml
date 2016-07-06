@@ -1,5 +1,5 @@
 name: 
-  springboot-aggregate-microservice template
+  springboot-aggregate-microservice-template
   
 type:
   spring-boot
@@ -13,3 +13,9 @@ parameters:
     required: false
     description: A template for a microservice aggregate
     valid-input-description: A short description of the service.
+    
+  - name: command_aggregate_bean_name
+    required: true
+    description: the name for the bean providing the implemenetation for the SimpleCommandAggragate
+    valid-input-description: A valid java bean name
+

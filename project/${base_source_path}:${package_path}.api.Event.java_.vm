@@ -1,0 +1,28 @@
+package ${package_name}.api;
+
+iimport java.util.LinkedHashMap;
+import java.util.Map;
+
+
+class Event {
+
+    private final String eventType;
+
+    private final Map<String, Object> parameters;
+
+    Event(String eventType, LinkedHashMap<String, Object> stringStringLinkedHashMap) {
+        this.eventType = eventType;
+        parameters = stringStringLinkedHashMap;
+    }
+
+
+ 	public  Map<String, Object> getParameters() {
+        return parameters;
+    }
+
+    public String getEventType() {
+        return eventType;
+    }
+
+
+}

@@ -1,0 +1,23 @@
+package ${package_name}.api;
+
+iimport java.util.LinkedHashMap;
+import java.util.Map;
+
+class Command {
+    private final String commandType;
+    private final Map<String, Object> parameters;
+    
+    Command(String commandType, LinkedHashMap<String, Object> linkedHashMap) {
+        this.commandType = commandType;
+        parameters = linkedHashMap;
+    }
+
+    public String getCommandType() {
+        return commandType;
+    }
+
+    public Map<String, Object> getParameters() {
+        return parameters;
+    }
+}
+
